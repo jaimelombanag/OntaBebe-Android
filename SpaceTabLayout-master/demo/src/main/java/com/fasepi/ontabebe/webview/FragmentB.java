@@ -50,6 +50,7 @@ public class FragmentB extends Fragment {
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
+
         myWebView.loadUrl("https://ontabebe.shop");
 
 /*
